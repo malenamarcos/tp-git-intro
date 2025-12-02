@@ -22,13 +22,13 @@ class Sphere(object):
     def volume(self):
         # *** STEP 4 ***
         # uncomment the following line
-        return 4/3 * 3.1416 * self.radius ** 3
+        return 4/3 * math.pi * self.radius ** 3
         pass
 
     def diameter(self):
         # *** STEP 5 ***
         # uncomment the following line
-        return self.radius
+        return self.radius*2
         pass
 
     def dump(self, filename):
